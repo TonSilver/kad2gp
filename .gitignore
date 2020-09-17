@@ -10,3 +10,6 @@
 
 # PyCharm
 .idea
+
+# Build
+/build
