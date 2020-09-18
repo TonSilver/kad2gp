@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='kad2gp',
-    version='0.1',
+    version='0.2',
     author="Anton Serebryakov",
     author_email="serebryakov.anton@gmail.com",
     description="Converts http://pkk.rosreestr.ru to Garden Planner's file.",
@@ -16,6 +16,7 @@ setuptools.setup(
     entry_points={
         'console_scripts': [
             'kad2gp=kad2gp.main_converter:main',
+            'kad2gp-gui=kad2gp.main_gui:main',
         ],
     },
     install_requires=[
